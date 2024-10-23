@@ -486,7 +486,7 @@
                     "label": "Select Azure Active Directory log types to enable",
                     "placeholder": "",
                     "multiselect": true,
-                    "defaultValue": [{"value": "SignInLogs"}, {"value": "AuditLogs"}],
+                    "defaultValue": [{"value": "SignInLogs"}, {"value": "AuditLogs"}, {"value": "NonInteractiveUserSignInLogs"}, {"value": "UserRiskEvents"}, {"value": "RiskyUsers"}],
                     "toolTip": "Select Azure Active Directory log types you would like to stream to the workspace",
                     "constraints": {
                         "allowedValues": [
