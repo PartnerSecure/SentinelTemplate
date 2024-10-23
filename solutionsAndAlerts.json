@@ -121,10 +121,10 @@
             }
         }
     ],
-    "outputs": {
-      "result": {
-        "value": "[reference([variables('identityName')]).outputs.text]",
-        "type": "string"
-      }
+  "outputs": {
+    "result": {
+      "value": "[reference('workspaceName').outputs.text]",
+      "type": "string"
     }
+  }
 }
