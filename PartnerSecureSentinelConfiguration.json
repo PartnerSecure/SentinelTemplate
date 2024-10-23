@@ -36,8 +36,8 @@
               "type": "Microsoft.Common.TextBox",
               "label": "Workspace Name",
               "placeholder": "<CompanyName>",
-              "defaultValue": "",
-              "toolTip": "The Workspace name should be the CompanyName-Workspace",
+              "defaultValue": "<CompanyName>",
+              "toolTip": "The Workspace name should be the CompanyName as this will be the main identifier when in Multi-Tenancy",
               "constraints": {
                   "required": true,
                   "regex": "^[A-Za-z0-9][A-Za-z0-9-]+[A-Za-z0-9]$",
