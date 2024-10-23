@@ -6,7 +6,7 @@
       "config": {
           "isWizard": false,
           "basics": {
-              "description": "**Microsoft Sentinel All-In-One** deployment, see more information about this project [here](https://github.com/PartnerSecure/Sentinel_Ultimate/Tools/Sentinel-All-In-One/).",
+              "description": "**Microsoft Sentinel for PartnerSecure** deployment.",
               "location": {
                   "label": "Location",
                   "toolTip": "Location for all resources",
@@ -35,9 +35,9 @@
               "name": "workspaceName",
               "type": "Microsoft.Common.TextBox",
               "label": "Workspace Name",
-              "placeholder": "CompanyName-Workspace",
-              "defaultValue": "-Workspace",
-              "toolTip": "The Workspace name should be the CompanyName-Workspace",
+              "placeholder": "<CompanyName>",
+              "defaultValue": "<CompanyName>",
+              "toolTip": "The Workspace name should be the CompanyName as this will be the main identifier when in Multi-Tenancy",
               "constraints": {
                   "required": true,
                   "regex": "^[A-Za-z0-9][A-Za-z0-9-]+[A-Za-z0-9]$",
