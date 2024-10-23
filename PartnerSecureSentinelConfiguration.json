@@ -308,6 +308,7 @@
                     "multiLine": true,
                     "defaultDescription": "A value for selection",
                     "toolTip": "Select essentials solutions that you would like to install",
+                    "defaultValue": [{"value": "Attacker Tools Threat Protection Essentials"}, {"value": "Cloud Identity Threat Protection Essentials"}, {"value": "Cloud Service Threat Protection Essentials"}, {"value": "Endpoint Threat Protection Essentials"}, {"value": "Network Session Essentials"}, {"value": "Network Threat Protection Essentials"}, {"value": "SOC Handbook"}, {"value": "SOC Process Framework"}, {"value": "UEBA Essentials"}],
                     "constraints": {
                         "allowedValues": [
                           {
