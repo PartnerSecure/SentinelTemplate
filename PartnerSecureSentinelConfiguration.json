@@ -372,6 +372,7 @@
                     "multiLine": true,
                     "defaultDescription": "A value for selection",
                     "toolTip": "Select the training and tutorials solutions that you would like to install",
+                    "defaultValue": [{"value": "KQL Training"}, {"value": "Microsoft Sentinel Training Lab"}],
                     "constraints": {
                         "allowedValues": [
                           {
