@@ -8,7 +8,7 @@ param(
 )
 
 $context = Get-AzContext
-
+Write-Host " AzContext: $context"
 
 if (!$context) {
     Connect-AzAccount -Environment AzureUSGovernment
@@ -26,7 +26,7 @@ $authHeader = @{
     'Authorization' = 'Bearer ' + $token.AccessToken 
 }
 $SubscriptionId = $context.Subscription.Id
-
+Write-Host " SubscriptionId = $SubscriptionId"
 $serverUrl = "https://management.azure.com"
 if ($isGov -eq $true) {
     $serverUrl = "https://management.usgovcloudapi.net"
