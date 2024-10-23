@@ -121,5 +121,10 @@
             }
         }
     ],
-    "outputs": {}
+    "outputs": {
+      "result": {
+        "value": "[reference('[variables('identityName')]').outputs.text]",
+        "type": "string"
+      }
+    }
 }
