@@ -35,8 +35,8 @@
               "name": "workspaceName",
               "type": "Microsoft.Common.TextBox",
               "label": "Workspace Name",
-              "placeholder": "CompanyName-Workspace",
-              "defaultValue": "-Workspace",
+              "placeholder": "<CompanyName>",
+              "defaultValue": "",
               "toolTip": "The Workspace name should be the CompanyName-Workspace",
               "constraints": {
                   "required": true,
