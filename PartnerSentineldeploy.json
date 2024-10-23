@@ -235,7 +235,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://raw.githubusercontent.com/PartnerSecure/Sentinel_Ultimate/master/Tools/Sentinel-All-In-One/v2/LinkedTemplates/dataConnectors.json",
+                    "uri": "https://raw.githubusercontent.com/PartnerSecure/SentinelTemplate/main/dataConnectors.json",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
@@ -273,7 +273,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://raw.githubusercontent.com/PartnerSecure/Sentinel_Ultimate/master/Tools/Sentinel-All-In-One/v2/LinkedTemplates/solutionsAndAlerts.json",
+                    "uri": "https://raw.githubusercontent.com/PartnerSecure/SentinelTemplate/main/solutionsAndAlerts.json",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
