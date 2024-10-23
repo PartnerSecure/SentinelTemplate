@@ -123,7 +123,7 @@
     ],
   "outputs": {
     "result": {
-      "value": "[reference('workspaceName').outputs.text]",
+      "value": "[reference(parameters('workspaceName')).outputs.text]",
       "type": "string"
     }
   }
