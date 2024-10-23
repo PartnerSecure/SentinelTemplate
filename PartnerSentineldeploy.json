@@ -143,13 +143,13 @@
             },
             "defaultValue": false
         },
-        "_artifactsLocation": {
-            "type": "string",
-            "metadata": {
-                "description": "The location of resources"
-            },
-            "defaultValue": "https://raw.githubusercontent.com/garybushey/AllInOneGov/main"
-        }
+//        "_artifactsLocation": {
+//            "type": "string",
+//           "metadata": {
+//                "description": "The location of resources"
+//            },
+//            "defaultValue": "https://raw.githubusercontent.com/garybushey/AllInOneGov/main"
+//        }
     },
     "variables": {},
     "resources": [
