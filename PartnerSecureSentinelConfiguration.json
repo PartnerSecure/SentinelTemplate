@@ -6,7 +6,7 @@
       "config": {
           "isWizard": true,
           "basics": {
-              "description": "**Microsoft Sentinel for PartnerSecure** deployment.",
+              "description": "**Microsoft Sentinel for PartnerSecure deployment.**",
               "location": {
                   "label": "Location",
                   "toolTip": "Location for all resources",
@@ -175,6 +175,7 @@
                     "placeholder": "Choose identity provider",
                     "multiselect": true,
                     "toolTip": "Select the identity providers that you would like to enable for UEBA - Min Azure Active Directory",
+                    "defaultValue": [{"value": "AzureActiveDirectory"}],
                     "constraints": {
                         "allowedValues": [
                             {
