@@ -196,7 +196,6 @@
                     "type": "Microsoft.Common.CheckBox",
                     "label": "Enable Sentinel health diagnostics?",
                     "toolTip": "This will enable diagnostics settings for Analytics rules, Data Connectors and Automation rules. [Learn more](https://learn.microsoft.com/azure/sentinel/health-audit)",
-                    "defaultValue": true,
                     "constraints": {
                         "required": true,
                         "validationMessage": "Please select"
@@ -230,6 +229,7 @@
                     "multiLine": true,
                     "defaultDescription": "A value for selection",
                     "toolTip": "Select the Microsoft solutions that you would like to install",
+                    "defaultValue": [{"value": "Azure Active Directory"}, {"value": "Azure Activity"}, {"value": "Microsoft 365"}, {"value": "Microsoft Defender for Cloud"}, {"value": "Microsoft Defender for Endpoint"}, {"value": "Microsoft Defender for IoT"}, { "value": "Teams"}, { "value": "Threat Intelligence"}],
                     "constraints": {
                         "allowedValues": [
                             {
