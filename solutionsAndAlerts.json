@@ -100,7 +100,7 @@
             ],
             "type": "Microsoft.Resources/deploymentScripts",
             "apiVersion": "2020-10-01",
-            "name": "deployRules",
+            "name": "DeployRules_Create-NewSolutionAndRulesFromList.ps1",
             "location": "[resourceGroup().location]",
             "kind": "AzurePowerShell",
             "identity": {
